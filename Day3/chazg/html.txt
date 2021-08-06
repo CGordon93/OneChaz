@@ -31,14 +31,14 @@
 </li>
 </head>
 </li>
-<p>Like a rollin' thunder chasing the wind</p>
+<p>Like a rollin' thunder chasing the 
 <p>If it keeps on rainin', levee's goin' to break</p>
 <li>
 </li>
 <li>
-<title>HTML / CSS scramble</title>
+<title> HTML / CSS scramble </title>
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css"/>
-<p>I set fire to the rain, watched it burn</p>
+<p> I set fire to the rain, watched it burn </p>
 </div>
 <div>
 </body>

@@ -1,5 +1,7 @@
 <html>
 <body>
+
+    <div id="courage-embodiment"></div>
     <p id="purpose">Your Purpose is the Key</p>
     <button type="button" 
     onClick="theFunction()">DO SOMETHING</button> 
@@ -10,17 +12,22 @@
 
     <img id="embodiement-of-courage" src="courage.jpg">
     <button type="button"
-    onClick="nextFunction()">IMAGE THIS TIME</button> 
+    onClick="nextFunction()">
+    IMAGE THIS TIME</button> 
+
 <script>
 
 function theFunction() {
-    document.getElementById('purpose').style.backgroundColor="gold";}
+    document.getElementById('purpose')
+    .style.backgroundColor="gold";
+}
 
 function otherFunction() {
     document.getElementById('motivation').style.color="blue";}
 
 function nextFunction() {
-    document.getElementById('embodiement-of-courage').innerhtml="courage.jpg"}
+    document.getElementById('embodiement-of-courage').src="courage.jpg";}
+
 </script>
 </body>
 </html>
