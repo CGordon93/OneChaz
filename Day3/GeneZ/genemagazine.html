@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Couch Project</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CSS PM AFTERNOON -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body class="w-100">
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-warning w-100">
+      <a class="navbar-brand" href="#">
+        <img class="d-none" src="./fainting couch.jpeg" alt="" />
+        Home
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=""
+      ></button>
+      <span class="navbar-toggler-icon"></span>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="list-item active">
+            <a class="nav-link" href="#">Modern</a>
+          </li>
+          <li class="list-item active">
+            <a class="nav-link" href="#">Victorian</a>
+          </li>
+          <li class="list-item active">
+            <a class="nav-link" href="#">Louis XIII</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <div class="row bg-primary" style="height: 200px">
+      <div class="col">
+        <div class="bg-warning">a</div>
+      </div>
+      <div class="col">
+        <div class="bg-warning">b</div>
+      </div>
+      <div class="col">
+        <div class="bg-warning">c</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 m-4"><h1 class="bg-warning">Fainting Couch</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-8 m-1">
+          <h1 class="bg-warning">Appreciation Page</h1>
+        </div>
+        <div class="d-inline p-2 bg-primary text-white col">
+          <p>
+            Why have we, as a society, forgotten about fainting couches? They
+            have immense utility!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 p-5 card-deck">
+          <img src="./fainting couch.jpeg" alt="purple fainting couch" />
+
+          <!-- <img
+            class="card-img-top"
+            src="./fainting couch.jpeg"
+            alt="purple fainting couch"
+          /> -->
+        </div>
+        <div class="row">
+          <div class="col p-5">
+            Oh how horrible! You're a fair maiden, overwhelmed, with nowhere to
+            faint. We've all been there honey. Do yourself a favor and make sure
+            that you have one of these bad boys in every room of your house!
+            Better yet, make sure that you have one in each corner. That way, no
+            matter where you're standing, you have somewhere to faint in a
+            proper and dramatic manner.
+          </div>
+        </div>
+      </div>
+      <!-- image panel -->
+      <!--       
+      <div class="row p-1">
+       <div class="card-deck"></div>
+        <div class="col card width: 600px">
+          <img class="card-img-top" src="./couch1.jpeg" alt="blue couch"  />
+        </div>
+
+        <div class="col card">
+          <img src="./couch2.jpeg" alt="blue couch" class="card-img-top" />
+        </div>
+        <div class="col card">
+          <img src="./couch3.jpeg" alt="blue couch" class="card-img-top" />
+        </div>
+
+        <div class="col card">
+          <img src="./couch4.jpeg" alt="blue couch" class="card-img-top" />
+        </div>
+      </div>
+      </div> -->
+      <!-- image panel end -->
+
+      <!-- card deck practice -->
+
+      <!-- card 1 -->
+      <div class="row">
+        <div class="card-deck">
+          <div class="card width:10px">
+            <img
+              class="card-img-top width: 200px"
+              src="./couch1.jpeg"
+              alt="modern couch"
+            />
+            <div class="card-body"></div>
+            <h5 class="card-title">Modern</h5>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <img class="card-img-top" src="./couch2.jpeg" alt="modern couch" />
+            <div class="card-body"></div>
+            <h5 class="card-title">Louis XIII</h5>
+          </div>
+          <!-- Card 3 -->
+          <div class="card">
+            <img class="card-img-top" src="./couch3.jpeg" alt="modern couch" />
+            <div class="card-body"></div>
+            <h5 class="card-title text-center">Louis XIV</h5>
+          </div>
+          <!-- Card 4 -->
+          <div class="card">
+            <img class="card-img-top" src="./couch4.jpeg" alt="modern couch" />
+            <div class="card-body"></div>
+            <h5 class="card-title text-center">Victorian</h5>
+          </div>
+        </div>
+      </div>
+      <!-- button start -->
+      <div class="row">
+        <div
+          class="btn-group m-5 p-3"
+          role="group"
+          aria-label="button with nested dropdown"
+        >
+          <button type="button" class="btn btn-secondary">Modern</button>
+          <button type="button" class="btn btn-secondary">Victorian</button>
+          <button type="button" class="btn btn-secondary">Louis XIII</button>
+        </div>
+        <div class="btn-group p-5" role="group">
+          <button
+            id="btnGroupDrop1"
+            type="button"
+            class="btn btn-secondary dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+      </div>
+      <!-- button end -->
+    </div>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap AFTERNOON JS -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>

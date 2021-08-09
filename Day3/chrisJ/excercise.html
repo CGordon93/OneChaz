@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="theme-color" content="#000000" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="./exercise.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css" />
+    <title>HTML / CSS scramble</title>
+    <style>
+        
+.emailBtn{ 
+    
+}
+.emailBtn:before {  overflow:hidden;
+    background-color:#008080; background-color: rgba(0, 128, 128, 0.8);
+    text-decoration:none;  
+    padding:0;
+}
+
+.emailBtn:hover:before {
+    top: 0; 
+    left: 0;
+}
+.emailBtn:hover { content: '';
+    transform-origin:0 0 ;
+    transform:translateX(-100%) skewX(-45deg);
+    transition: color .5s;
+    transform: translateX(0) skewX(-45deg);
+    transition: transform .5s;
+    font-weight:normal;
+}
+
+.emailBtn {
+    border:1px solid #000;
+    transition: color .5s;
+    font-style:italic;
+    margin:1%;
+    z-index: -1;
+    color:#000; 
+    font-size:1.5em;}
+    #categories li h1{ margin:0 auto;   
+        font-family: 'Amatic', sans-serif;
+        position:fixed;
+    }
+    
+    #categories div h1, #categories div p { color: #fff; 
+        color:#fff;
+        font-family: 'Open Sans', arial, sans-serif;
+        text-decoration:none; 
+    text-align:center;
+}
+
+body{ 
+    background:rgb(208, 226, 220); top:0;
+    right:0;   
+    padding:.5em .7em;
+} 
+
+
+#categories li img{ background: #000; /*button*/
+    position: absolute; 
+    margin:0;
+}
+#categories li > div{ top:0;
+    transition: transform .5s;
+    right:0;
+    color: #fff;
+    padding:.5em .7em;
+    font-style:italic;
+}
+img { 
+    width: 130%;  
+    height: 100%;
+    position:fixed;
+    min-height: 200px;
+    overflow:hidden;
+
+    *{
+    background-color:#008080; background-color: rgba(0, 128, 128, 0.8);
+    overflow:hidden;
+}
+        </style>
+</head>
+
+<body>
+    <div>
+        <h1>Style Smash</h1>
+    </div>
+
+
+    <div>
+        <ul id="categories">
+            <li>
+                <p>I'm only happy when it rains</p>
+            </li>
+            <li>
+                <p>Like a rollin' thunder chasing the wind</p>
+            </li>
+            <li>
+                <p>Falling on my head like a memory</p>
+            </li>
+            <li>
+                <p>If it keeps on rainin', levee's goin' to break</p>
+            </li>
+            <li>
+                <p>Thunder only happens when it's raining</p>
+            </li>
+            <li>
+                <p>'ella 'ella 'ella eh eh eh </p>
+            </li>
+            <li>
+                <p>I set fire to the rain, watched it burn</p>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <div>
+        <button><a class="emailBtn" href="mailto:melissa@sightsource.net">Ain't no sunshine</a></button>
+    </div>
+    <div><img src="https://picsum.photos/200" /></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>

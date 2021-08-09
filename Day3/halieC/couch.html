@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Day 3</title>
+
+    <!-- NOTES
+    padding: p-0 (remove it all) p-3 (default) p-5 (add a lot more padding and margin) 
+    margin: m-5
+    just add padding to the bottom: pb-4
+    add margin to top and bottom: my-6
+    add margin to left and right: mx-2
+    add padding to everywhere except the right py-5 pr-0
+    how to add colors to text: text-white, text-secondsary, text-success
+    hot to add bacgkround: bg-secondary, danger, warning, light, info, dark
+
+    buttons: <div class="btn btn-danger btn-small">Splashy Button</div>
+    dropdown: 
+    <div class="btn-dropdown">
+      <div class="btn btn-primary btn-lg"></div>
+    </div>
+
+    use card-columns class (wrapped around all cards) instead of using replace col and row completely
+    use card-deck to do rows and columns 
+
+    study display on bootstrap guide
+
+    row goes with align-items-start and that will put the columns at the top (can do center or end)
+    can put align-item-[start or center or end] on columns 
+
+    horizontal movement is justify-content-[start or center or end]
+
+    no-gutters gets rid of spacing between columns
+
+    .col-md-3.offset-md-3 says 'do a 3 column but start 3 over'
+    -->
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col" style="background-color: lightslategrey">
+          <h1>Coding couch challenge</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7 mr-1" style="background-color: pink">
+          First Column <br />
+          More words <br />
+          Even more words
+        </div>
+        <div class="col-2" style="background-color: lightblue">
+          Second Column
+        </div>
+        <div class="col text-white" style="background-color: lightgreen">
+          Third Column
+        </div>
+      </div>
+    </div> -->
+
+    <!-- navbar-expand-lg takes up the entire width of the screen -->
+    <!-- navbar-brand is always like the little logo on the left of the navbar and center on small screens  -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h6>[fun decorating]</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pt-2">
+          <div class="text-center">
+            <h1>staff sofa</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-4">
+          <h1>challenge</h1>
+        </div>
+        <div class="col-4">
+          <p>
+            Pillow problems happen - even to our team, who were game to finally
+            deal. Check out their chic tweaks.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <img
+              src="https://files.slack.com/files-tmb/TAGL968DQ-F02A6LL35EF-a80151a922/img_720.jpg"
+              alt="Picture of Sofa"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col">
+          <div class="text-center">
+            <h2>all punched up</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col p-3">
+          <p>
+            <q
+              >My black and white pillow blend was due for a fun refresh, and a
+              classic sipcovered sofa is a great blank canvas. I want in the
+              opposite direction with pumped-up colors imspired by nature. The
+              greens and yellows are like a citrusy cocktail in pillow form--
+              instant happiness!</q
+            >
+          </p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col pb-3">
+          <div class="card">
+            <!-- can do card-header, card-footer -->
+            <img
+              class="card-img-top"
+              src="https://www.homethreads.com/files/modway/eei-2156-pat-1-.jpg"
+              alt="Card image caption"
+            />
+            <div class="card-body">
+              <h5 class="card-title">A pretty pillow</h5>
+              <p class="card-text">
+                alfkd jfklas dfkladf kladf klaf kladfjklasdf kladsjf klasfdjlk
+                adsf
+              </p>
+            </div>
+          </div>
+          <!-- <div class="text-center">
+            <img
+              src="https://www.homethreads.com/files/modway/eei-2156-pat-1-.jpg"
+              alt="Pillow 1"
+              class="img-fluid"
+            />
+          </div> -->
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <div class="card">
+              <div class="card-header bg-dark text-white">Pillow Header</div>
+
+              <div class="card-body">
+                <h6 class="card-title">Pillow Title</h6>
+                <div class="card-text">Pillow text</div>
+              </div>
+              <div class="footer">Pillow footer</div>
+              <img
+                class="card-img-bottom"
+                src="https://picsum.photos/200"
+                alt="Card image caption"
+              />
+            </div>
+            <!-- <img
+              src="https://cdn10.bigcommerce.com/s-9ese1/products/10413/images/105203/Single-Buffalo-Pillow-819652020577_image1__72985.1591852070.1280.1280.jpg?c=2"
+              alt="Pillow 1"
+              class="img-fluid"
+            /> -->
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <img
+              src="https://ak1.ostkcdn.com/images/products/is/images/direct/6f7bb1cf3d21211ad91b55ef7ea4306a6e8d8c0d/Brayden-Fringe-Trimming-Decorative-Single-Pillow%2C-Burgundy%2C-18x18-Inches.jpg"
+              alt="Pillow 1"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <img
+              src="https://www.homethreads.com/files/modway/eei-2156-wav-1-.jpg"
+              alt="Pillow 1"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

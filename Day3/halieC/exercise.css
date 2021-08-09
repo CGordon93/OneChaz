@@ -1,0 +1,108 @@
+.emailBtn:hover:before {
+}
+
+.emailBtn {
+  border: 1px solid #000;
+  text-decoration: none;
+  top: 0;
+  right: 0;
+}
+
+.emailBtn:hover {
+  background: #000;
+}
+
+.emailBtn:before {
+}
+
+#categories li h1 {
+  position: fixed;
+}
+
+#categories div h1,
+#categories div p {
+  text-align: center;
+  color: #fff;
+  background-color: #008080;
+  background-color: rgba(0, 128, 128, 0.8);
+  font-family: "Amatic", sans-serif;
+  color: #000;
+}
+
+#categories li img {
+}
+
+#categories li > div {
+}
+
+img {
+  min-height: 200px;
+}
+
+body {
+  background: rgb(208, 226, 220);
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 1.5em;
+  top: 0;
+  left: 0;
+}
+
+* {
+  margin: 0 auto;
+}
+
+/* 
+width: 130%; height: 100%;
+
+padding:0;
+
+
+
+transform-origin:0 0 ;
+transform:translateX(-100%) skewX(-45deg);
+
+
+
+
+
+
+
+transform: translateX(0) skewX(-45deg);
+
+
+
+overflow:hidden;
+
+text-decoration:none;
+
+transition: color .5s;
+
+
+content: '';
+font-weight:normal;
+
+margin:1%;
+
+z-index: -1;
+
+
+
+
+transition: transform .5s;
+
+
+padding:.5em .7em;
+
+font-style:italic;
+
+
+position: absolute;
+margin:0;
+
+
+
+color:#fff;
+
+
+overflow:hidden;
+ */

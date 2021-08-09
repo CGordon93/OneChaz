@@ -1,0 +1,62 @@
+.emailBtn:hover:before {
+    text-align:center;
+    top: 0; left: 0;
+    width: 130%; height: 100%;
+}
+
+.emailBtn #categories li h1 {
+    padding:0;
+    border:1px solid #000;
+    transform-origin:0 0 ;
+    transform:translateX(-100%) skewX(-45deg);
+    background-color: rgba(0, 128, 128, 0.8);
+    margin:0 auto;   
+    font-family: 'Amatic', sans-serif;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+img {
+    min-height: 200px;
+}
+
+#categories div h1, #categories div p{
+transform: translateX(0) skewX(-45deg);
+}
+
+.emailBtn:before {
+    position:fixed;
+    overflow:hidden;
+}
+
+body{
+    text-decoration:none; 
+    background:rgb(208, 226, 220);
+}
+
+.emailBtn:hover {
+    transition: color .5s;
+    content: '';
+    font-weight:normal;
+    margin:1%;
+    z-index: -1;
+    top:0;
+    transition: transform .5s;
+    right:0;
+    color: #fff;
+    padding:.5em .7em;
+    background: #000;
+}
+
+#categories li img{
+    font-style:italic;
+    position: absolute;
+    margin:0;
+    color:#000;
+    color:#fff;
+    font-size:1.5em;
+}
+
+#categories li > div{
+    overflow:hidden;
+    background-color:#008080;
+}

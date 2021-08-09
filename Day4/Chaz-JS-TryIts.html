@@ -2,20 +2,34 @@
 <body>
 
     <div id="courage-embodiment"></div>
-    <p id="purpose">Your Purpose is the Key</p>
-    <button type="button" 
-    onClick="theFunction()">DO SOMETHING</button> 
+        <p id="purpose">Your Purpose is the Key</p>
+    <button 
+        type="button"  
+        onClick="theFunction()">
+        DO SOMETHING
+    </button> 
 
     <p id="motivation">Make What you find helpful for either yourself or someone else</p>
-    <button type="button"
-    onClick="otherFunction()">TRYING SOMETHING</button>
+    <button 
+        type="button"
+        onClick="otherFunction()">
+        TRYING SOMETHING
+    </button>
 
-    <img id="embodiement-of-courage" src="courage.jpg">
-    <button type="button"
-    onClick="nextFunction()">
-    IMAGE THIS TIME</button> 
+    <img id="embodiement-of-courage" 
+        src="courage.jpg"
+        .style.display="none")>
+
+    <button 
+        type="button"
+        onClick="nextFunction()">
+        IMAGE THIS TIME
+    </button> 
 
 <script>
+
+    document.getElementById('embodiement-of-courage')
+    .style.display="none";
 
 function theFunction() {
     document.getElementById('purpose')
@@ -23,10 +37,17 @@ function theFunction() {
 }
 
 function otherFunction() {
-    document.getElementById('motivation').style.color="blue";}
+    document.getElementById('motivation').innerHTML(1 + 4)
+    .style.color="blue";
+}
 
 function nextFunction() {
-    document.getElementById('embodiement-of-courage').src="courage.jpg";}
+    //document.getElementById('embodiement-of-courage').src="courage.jpg";
+    document.getElementById('embodiement-of-courage')
+    .style.display="block";
+}
+
+
 
 </script>
 </body>

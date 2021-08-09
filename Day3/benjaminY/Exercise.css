@@ -1,0 +1,15 @@
+#categories {
+    list-style-type: none;
+}
+
+div {
+    background-color:lightseagreen;
+    display: block;
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    color: white
+    
+}
